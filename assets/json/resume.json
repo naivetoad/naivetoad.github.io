@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Weiwu Yan",
-    "location": "Chicago, IL",
+    "location": "Chicago, Illinois, United States",
     "email": "yww8058@gmail.com",
-    "phone": "+1 9292507482",
+    "phone": "+1 929-250-7482",
     "url": "https://naivetoad.github.io/"
   },
   "education": [
@@ -29,7 +29,7 @@
   "projects": [
     {
       "name": "Gender & Dialogic Emotion",
-      "summary": "Performed computational analysis using RoBERTa,Parts-of-Speech Tagging, and TF-IDF to analyze gender differences in dialogic emotion in role-playing video games.",
+      "summary": "Performed computational analysis using RoBERT, Parts-of-Speech Tagging, and TF-IDF to analyze gender differences in dialogic emotion in role-playing video games.",
       "startDate": "2024-03-01",
       "endDate": "2025-05-01"
     },
