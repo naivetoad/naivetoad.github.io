@@ -4,10 +4,9 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Weiwu
-middle_name: \"Thomas\"
+middle_name:
 last_name: Yan
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -172,6 +171,13 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - includes/resume/awards.liquid
+  - includes/resume/certificates.liquid
+  - includes/resume/interests.liquid
+  - includes/resume/publications.liquid
+  - includes/resume/references.liquid
+  - includes/resume/volunteer.liquid
+  - includes/resume/work.liquid
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
