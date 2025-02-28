@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - naivetoad
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - naivetoad/MACCS
+  - naivetoad/SOCI-40133-Final-Project
+  - naivetoad/MPCS-52553-Final-Project 
+  - naivetoad/MACSS-40550-Final-Project
+  - naivetoad/MACS-30100-Final-Project
+  - naivetoad/MACS-30123-Final-Project
+
+

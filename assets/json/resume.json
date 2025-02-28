@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Weiwu Yan",
-    "location": "Chicago, United States",
+    "location": "Chicago, Illinois, United States",
     "email": "yww8058@gmail.com",
     "phone": "+1 929-250-7482",
     "website": "https://naivetoad.github.io/"
@@ -9,7 +9,7 @@
   "education": [
     {
       "institution": "University of Chicago",
-      "location": "Chicago, United States",
+      "location": "Chicago, IL, USA",
       "url": "https://www.uchicago.edu/",
       "area": "Computational Social Science",
       "studyType": "Master's Degree",
@@ -18,7 +18,7 @@
     },
     {
       "institution": "University of California, San Diego",
-      "location": "San Diego, United States",
+      "location": "San Diego, CA, USA",
       "url": "https://ucsd.edu/",
       "area": "Social Psychology & Sociology",
       "studyType": "Bachelor's Degree",
@@ -29,24 +29,86 @@
   "projects": [
     {
       "name": "Gender & Dialogic Emotion",
-      "summary": "Performed computational analysis using RoBERT, Parts-of-Speech Tagging, and TF-IDF to analyze gender differences in dialogic emotion in role-playing video games.",
-      "startDate": "2024-03-01",
-      "endDate": "2025-05-01"
+      "summary": "Performed computational analysis using RoBERTa, Parts-of-Speech Tagging, and TF-IDF to analyze gender differences in dialogic emotion in role-playing video games.",
+      "startDate": "2023-09-01",
+      "endDate": "2025-06-01",
+      "url": "https://github.com/naivetoad/MACCS"
     },
     {
       "name": "Chat Application",
       "summary": "Designed a chat application using Flask and Node Package Manager with features including user accounts, channels, and real-time messaging with text, emojis, and images.",
-      "startDate": "2024-10-01",
+      "startDate": "2024-09-01",
       "endDate": "2024-12-01",
       "url": "https://github.com/naivetoad/MPCS-52553-Final-Project"
+    },
+    {
+      "name": "Academic Research Trends",
+      "summary": "Used Multinomial Logistic Regression and Latent Dirichlet Allocation on an arXiv dataset of 1.7 million scholarly articles using PySpark on Amazon Web Services to analyze trends in academic research fields.",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-01",
+      "url": "https://github.com/naivetoad/MACS-30123-Final-Project"
+    },
+    {
+      "name": "Urban Gentrification & Socioeconomic Status",
+      "summary": "Designed an agent-based model using Mesa to simulate urban gentrification dynamics, examining how citizens and immigrants with varying socioeconomic status interact and relocate within a city.",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-01",
+      "url": "https://github.com/naivetoad/MACSS-40550-Final-Project"
+    },
+    {
+      "name": "Funding & Academic Output",
+      "summary": ["Collected 4,959 funding records from the U.S. National Science Foundation Division of Behavioral and Cognitive Sciences and scraped metadata of 207,370 scholarly articles by 3,230 identified researchers from Google Scholar.",
+                  "Performed K-Means Clustering using TF-IDF to analyze the relationship between seven identified fields and total and average funding.",
+                  "Used a Structural Topic Model to analyze trends in the popularity of 12 identified topics.",
+                  "Performed document embeddings using SciBERT to analyze the impact of funding on research diversity."],
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "url": "https://github.com/naivetoad/SOCI-40133-Final-Project"
+    },
+    {
+      "name": "Video Game Classification",
+      "summary": "Performed genre classification on a Steam dataset of 75,776 video games using a Random Forest Classifier and a Convolutional Neural Network, leveraging textual descriptions and cover art.",
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "url": "https://github.com/naivetoad/MACS-30100-Final-Project"
+    },
+    {
+      "name": "Political Orientation & Prison Perception",
+      "summary": "Performed statistical analysis on 20 participant responses collected via a Google survey using Excel to examine the relationship between political orientation and perceptions of prison functions for violent versus property crimes.",
+      "startDate": "2023-03-01",
+      "endDate": "2023-06-01",
+      "url": "https://github.com/naivetoad/SOCI-108"
+    },
+    {
+      "name": "Eyewitness Identification & Confidence",
+      "summary": "Conducted a between-subjects experiment with 78 participants to examine the discriminability of simultaneous versus sequential lineups and assess confidence in eyewitness identification.",
+      "startDate": "2022-06-01",
+      "endDate": "2022-07-01",
+      "url": "https://github.com/naivetoad/PSYC-193L"
+    },
+    {
+      "name": "Moral Judgment & Occupation",
+      "summary": "Performed statistical analysis on 285 participant responses collected via a Qualtrics survey using Jamovi to examine the relationship between a mother’s occupation and moral judgments of mothers who leave their children unsupervised.",
+      "startDate": "2020-09-01",
+      "endDate": "2020-12-01",
+      "url": "https://github.com/naivetoad/PSYC-71"
     }
   ],
   "skills": [
+    {
+      "name": "Languages",
+      "icon": "fa-solid fa-language",
+      "keywords": [
+        "Chinese (Native)",
+        "English (Fluent)"
+      ]
+    },
     {
       "name": "Programming",
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python", 
+        "SQL",
         "JavaScript",
         "R"
       ]
@@ -55,22 +117,58 @@
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-square-binary",
       "keywords": [
-        "Machine Learning", 
-        "Deep Learning",
-        "Natural Language Processing"
+        "TensorFlow",
+        "PyTorch",
+        "spaCy",
+        "scikit-learn",
+        "Natural Language Toolkit",
+        "Keras"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": "fa-solid fa-earth-asia"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": "fa-solid fa-earth-americas"
+      "name": "Data Analysis",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "Pandas", 
+        "NumPy", 
+        "SciPy",
+        "dplyr"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Plotly", 
+        "ggplot2", 
+        "Tableau", 
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "High-Performance Computing",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Amazon Web Services",
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "icon": "fa-solid fa-globe",
+      "keywords": [
+        "Shiny",
+        "Flask",
+        "React"
+      ]
+    },
+    {
+      "name": "Survey",
+      "icon": "fa-solid fa-clipboard-list",
+      "keywords": [
+        "Qualtrics",
+        "Google Survey"
+      ]
     }
   ]
 }
