@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Weiwu Yan",
-    "location": "Chicago, Illinois, United States",
+    "location": "Chicago, United States",
     "email": "yww8058@gmail.com",
     "phone": "+1 929-250-7482",
-    "url": "https://naivetoad.github.io/"
+    "website": "https://naivetoad.github.io/"
   },
   "education": [
     {
       "institution": "University of Chicago",
-      "location": "Chicago, Illinois, United States",
+      "location": "Chicago, United States",
       "url": "https://www.uchicago.edu/",
       "area": "Computational Social Science",
       "studyType": "Master's Degree",
@@ -18,7 +18,7 @@
     },
     {
       "institution": "University of California, San Diego",
-      "location": "San Diego, California, United States",
+      "location": "San Diego, United States",
       "url": "https://ucsd.edu/",
       "area": "Social Psychology & Sociology",
       "studyType": "Bachelor's Degree",
@@ -44,7 +44,7 @@
   "skills": [
     {
       "name": "Programming",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
         "Python", 
         "JavaScript",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Artificial Intelligence",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-square-binary",
       "keywords": [
         "Machine Learning", 
         "Deep Learning",
@@ -65,12 +65,12 @@
     {
       "language": "Chinese",
       "fluency": "Native speaker",
-      "icon": "fa-solid fa-language"
+      "icon": "fa-solid fa-earth-asia"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": "fa-solid fa-language"
+      "icon": "fa-solid fa-earth-americas"
     }
   ]
 }
