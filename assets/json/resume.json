@@ -28,70 +28,72 @@
   ],
   "projects": [
     {
-      "name": "Gender & Dialogic Emotion",
-      "summary": "Performed computational analysis using RoBERTa, Parts-of-Speech Tagging, and TF-IDF to analyze gender differences in dialogic emotion in role-playing video games.",
+      "name": "Gender & Video Game Dialogue (in progress)",
+      "summary": ["Collected and processed 247,644 dialogue lines from 3,043 characters across 18 role-playing video games using the Video Game Dialogue Corpus.",
+                  "Conducted emotion classification (RoBERTa) to analyze gender differences in emotional expression.",
+                  "Performed Part-of-Speech (spaCy) tagging and TF-IDF vectorization (scikit-learn) to identify the verbs most uniquely associated with each gender.",
+                  "Utilized regular expressions to examine gender differences in the distribution of terminal punctuation."],
       "startDate": "2023-09-01",
       "endDate": "2025-06-01",
-      "url": "https://github.com/naivetoad/MACCS"
+      "url": "https://github.com/naivetoad/MACCS-Thesis-Project.git"
     },
     {
-      "name": "Chat Application",
-      "summary": "Designed a chat application using Flask and Node Package Manager with features including user accounts, channels, and real-time messaging with text, emojis, and images.",
+      "name": "A Chat Application",
+      "summary": ["Designed the frontend of a chat application (HTML & CSS) with features such as a navigation bar, interactive hover effects, and responsive layout adaptation.",
+                  "Developed the backend of a chat application (Flask) with features such as user account management, channel-based communication, and real-time messaging for text, emojis, and image sharing."],
       "startDate": "2024-09-01",
       "endDate": "2024-12-01",
-      "url": "https://github.com/naivetoad/MPCS-52553-Final-Project"
+      "url": "https://github.com/naivetoad/MPCS-52553-Final-Project.git"
     },
     {
-      "name": "Academic Research Trends",
-      "summary": "Used Multinomial Logistic Regression and Latent Dirichlet Allocation on an arXiv dataset of 1.7 million scholarly articles using PySpark on Amazon Web Services to analyze trends in academic research fields.",
+      "name": "Scholarly Article Classification",
+      "summary": ["Collected and processed metadata of 1.7 million scholarly articles from the arXiv Dataset.",
+                  "Performed Multinomial Logistic Regression (Apache Spark) on AWS to identify latent topics across articles.",
+                  "Trained a Latent Dirichlet Allocation model (Apache Spark) on AWS to classify articles into research fields."],
       "startDate": "2024-03-01",
       "endDate": "2024-06-01",
-      "url": "https://github.com/naivetoad/MACS-30123-Final-Project"
+      "url": "https://github.com/naivetoad/MACS-30123-Final-Project.git"
     },
     {
-      "name": "Urban Gentrification & Socioeconomic Status",
-      "summary": "Designed an agent-based model using Mesa to simulate urban gentrification dynamics, examining how citizens and immigrants with varying socioeconomic status interact and relocate within a city.",
+      "name": "Urban Gentrification",
+      "summary": "Designed an agent-based model (Mesa) to simulate urban gentrification dynamics, examining how citizens and immigrants with varying socioeconomic status interact and relocate within a city.",
       "startDate": "2024-03-01",
       "endDate": "2024-06-01",
-      "url": "https://github.com/naivetoad/MACSS-40550-Final-Project"
+      "url": "https://github.com/naivetoad/MACSS-40550-Final-Project.git"
     },
     {
       "name": "Funding & Academic Output",
-      "summary": ["Collected 4,959 funding records from the U.S. National Science Foundation Division of Behavioral and Cognitive Sciences and scraped metadata of 207,370 scholarly articles by 3,230 identified researchers from Google Scholar.",
-                  "Performed K-Means Clustering using TF-IDF to analyze the relationship between seven identified fields and total and average funding.",
-                  "Used a Structural Topic Model to analyze trends in the popularity of 12 identified topics.",
-                  "Performed document embeddings using SciBERT to analyze the impact of funding on research diversity."],
+      "summary": ["Collected and processed 4,959 funding records from U.S. NSF Division of Behavioral and Cognitive Sciences.",
+                  "Scraped metadata of 207,370 scholarly articles authored by 3,230 identified researchers from Google Scholar",
+                  "Applied k-means clustering and TF-IDF vectorization (scikit-learn) to examine the relationship between seven identified fields and funding amounts.",
+                  "Utilized a Structural Topic Model (R) to analyze temporal trends across 12 identified topics.",
+                  "Performed document embeddings (SciBERT) to assess the impact of funding on research diversity."],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
-      "url": "https://github.com/naivetoad/SOCI-40133-Final-Project"
+      "url": "https://github.com/naivetoad/SOCI-40133-Final-Project.git"
     },
     {
       "name": "Video Game Classification",
-      "summary": "Performed genre classification on a Steam dataset of 75,776 video games using a Random Forest Classifier and a Convolutional Neural Network, leveraging textual descriptions and cover art.",
+      "summary": ["Collected and processed metadata of 75,776 video games from the Steam Games Dataset.",
+                  "Trained a Random Forest Classifier (scikit-learn) to classify games based on textual descriptions.",
+                  "Trained a Convolutional Neural Network (TensorFlow) to classify games based on cover art."],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
-      "url": "https://github.com/naivetoad/MACS-30100-Final-Project"
+      "url": "https://github.com/naivetoad/MACS-30100-Final-Project.git"
     },
     {
-      "name": "Political Orientation & Prison Perception",
-      "summary": "Performed statistical analysis on 20 participant responses collected via a Google survey using Excel to examine the relationship between political orientation and perceptions of prison functions for violent versus property crimes.",
-      "startDate": "2023-03-01",
-      "endDate": "2023-06-01",
-      "url": "https://github.com/naivetoad/SOCI-108"
-    },
-    {
-      "name": "Eyewitness Identification & Confidence",
-      "summary": "Conducted a between-subjects experiment with 78 participants to examine the discriminability of simultaneous versus sequential lineups and assess confidence in eyewitness identification.",
+      "name": "Eyewitness Identification",
+      "summary": ["Collected and processed responses from 78 participants in a between-subjects factorial design experiment (Qualtrics).",
+                  "Conducted an ANOVA test (Jamovi) to analyze the effects of lineup procedure, target availability, and confidence on eyewitness identification accuracy."],
       "startDate": "2022-06-01",
-      "endDate": "2022-07-01",
-      "url": "https://github.com/naivetoad/PSYC-193L"
+      "endDate": "2022-07-01"
     },
     {
       "name": "Moral Judgment & Occupation",
-      "summary": "Performed statistical analysis on 285 participant responses collected via a Qualtrics survey using Jamovi to examine the relationship between a mother’s occupation and moral judgments of mothers who leave their children unsupervised.",
+      "summary": ["Collected and processed responses from 285 participants in an observational study (Qualtrics)",
+                  "Conducted an ANOVA test (Jamovi) to analyze the relationship between maternal occupation and moral judgments of mothers leaving their children unsupervised."],
       "startDate": "2020-09-01",
-      "endDate": "2020-12-01",
-      "url": "https://github.com/naivetoad/PSYC-71"
+      "endDate": "2020-12-01"
     }
   ],
   "skills": [
@@ -99,8 +101,8 @@
       "name": "Languages",
       "icon": "fa-solid fa-language",
       "keywords": [
-        "Chinese (Native)",
-        "English (Fluent)"
+        "Chinese",
+        "English"
       ]
     },
     {
