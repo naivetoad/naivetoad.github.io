@@ -4,12 +4,13 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - naivetoad/MACCS-Thesis-Project
-  - naivetoad/SOCI-40133-Final-Project
-  - naivetoad/MPCS-52553-Final-Project 
-  - naivetoad/MACSS-40550-Final-Project
-  - naivetoad/MACS-30100-Final-Project
-  - naivetoad/MACS-30123-Final-Project
+  - naivetoad/MACSS-Thesis
+  - naivetoad/SOCI-40133
+  - naivetoad/MPCS-52553
+  - naivetoad/MACS-40550
+  - naivetoad/MACS-30100
+  - naivetoad/MACS-30123
+
   
 
 

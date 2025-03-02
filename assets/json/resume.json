@@ -35,7 +35,7 @@
                   "Utilized regular expressions to examine gender differences in the distribution of terminal punctuation."],
       "startDate": "2023-09-01",
       "endDate": "2025-06-01",
-      "url": "https://github.com/naivetoad/MACCS-Thesis-Project.git"
+      "url": "https://github.com/naivetoad/MACSS-Thesis.git"
     },
     {
       "name": "A Chat Application",
@@ -43,7 +43,7 @@
                   "Developed the backend of a chat application (Flask) with features such as user account management, channel-based communication, and real-time messaging for text, emojis, and image sharing."],
       "startDate": "2024-09-01",
       "endDate": "2024-12-01",
-      "url": "https://github.com/naivetoad/MPCS-52553-Final-Project.git"
+      "url": "https://github.com/naivetoad/MPCS-52553.git"
     },
     {
       "name": "Scholarly Article Classification",
@@ -52,14 +52,14 @@
                   "Trained a Latent Dirichlet Allocation model (Apache Spark) on AWS to classify articles into research fields."],
       "startDate": "2024-03-01",
       "endDate": "2024-06-01",
-      "url": "https://github.com/naivetoad/MACS-30123-Final-Project.git"
+      "url": "https://github.com/naivetoad/MACS-30123.git"
     },
     {
       "name": "Urban Gentrification",
       "summary": "Designed an agent-based model (Mesa) to simulate urban gentrification dynamics, examining how citizens and immigrants with varying socioeconomic status interact and relocate within a city.",
       "startDate": "2024-03-01",
       "endDate": "2024-06-01",
-      "url": "https://github.com/naivetoad/MACSS-40550-Final-Project.git"
+      "url": "https://github.com/naivetoad/MACS-40550.git"
     },
     {
       "name": "Funding & Academic Output",
@@ -70,7 +70,7 @@
                   "Performed document embeddings (SciBERT) to assess the impact of funding on research diversity."],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
-      "url": "https://github.com/naivetoad/SOCI-40133-Final-Project.git"
+      "url": "https://github.com/naivetoad/SOCI-40133.git"
     },
     {
       "name": "Video Game Classification",
@@ -79,7 +79,7 @@
                   "Trained a Convolutional Neural Network (TensorFlow) to classify games based on cover art."],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
-      "url": "https://github.com/naivetoad/MACS-30100-Final-Project.git"
+      "url": "https://github.com/naivetoad/MACS-30100.git"
     },
     {
       "name": "Eyewitness Identification",
