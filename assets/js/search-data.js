@@ -52,8 +52,8 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "projects-gender-emotion-amp-video-game-dialogue",
-          title: 'Gender, Emotion &amp;amp; Video Game Dialogue',
+    },{id: "projects-emotional-expression-and-gender-in-video-game-dialogue",
+          title: 'Emotional Expression and Gender in Video Game Dialogue',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
