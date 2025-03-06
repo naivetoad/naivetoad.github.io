@@ -8,13 +8,10 @@ category:
 related_publications: false
 ---
 
-introduction
-
 plot 1
-<iframe width="900" height="700" frameborder="0" scrolling="yes" src="/assets/html/distribution_of_emotions.html"></iframe>
-
+<iframe width="900" height="650" frameborder="0" scrolling="yes" src="/assets/html/frequency_of_emotions.html"></iframe>
 plot 2
-
+<iframe width="900" height="650" frameborder="0" scrolling="yes" src="/assets/html/percentage_of_verbs.html"></iframe>
 plot 3
+<iframe width="900" height="650" frameborder="0" scrolling="yes" src="https://naivetoad.shinyapps.io/distribution-of-emotions/"></iframe>
 
-conclusion
