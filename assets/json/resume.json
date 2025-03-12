@@ -30,44 +30,29 @@
     {
       "name": "Gender and Emotional Expression in Video Game Dialogue",
       "summary": ["Collected and processed 247,644 dialogue lines from 3,043 characters across 18 role-playing video games from the Video Game Dialogue Corpus.",
-                  "Conducted emotion classification using RoBERTa (Hugging Face) to analyze gender differences in emotional expression.",
-                  "Performed Part-of-Speech (spaCy) tagging and TF-IDF vectorization (scikit-learn) to identify the verbs most uniquely associated with each gender.",
+                  "Conducted emotion classification using RoBERTa to analyze gender differences in emotional expression.",
+                  "Performed Part-of-Speech tagging to identify the verbs most uniquely associated with each gender.",
                   "Utilized regular expressions to examine gender differences in the distribution of terminal punctuation."],
       "startDate": "2023-09-01",
       "endDate": "2025-06-01",
       "url": "https://github.com/naivetoad/MACSS-Thesis.git"
     },
     {
-      "name": "A Real-Time Chat Application",
-      "summary": ["Designed the frontend of a chat application (React) with features such as a navigation bar, interactive hover effects, and responsive layout adaptation.",
-                  "Developed the backend of a chat application (Flask) with features such as user account management, channel-based communication, and real-time messaging for text, emojis, and image sharing."],
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-01",
-      "url": "https://github.com/naivetoad/MPCS-52553.git"
-    },
-    {
       "name": "Multiclass Classification of Scholarly Articles",
       "summary": ["Collected and processed metadata of 1.7 million scholarly articles from the arXiv Dataset.",
-                  "Performed Multinomial Logistic Regression (PySpark) on AWS to identify latent topics across articles.",
-                  "Trained a Latent Dirichlet Allocation model (PySpark) on AWS to classify articles into research fields."],
+                  "Performed Multinomial Logistic Regression on AWS to identify latent topics across articles.",
+                  "Trained a Latent Dirichlet Allocation model on AWS to classify articles into research fields."],
       "startDate": "2024-03-01",
       "endDate": "2024-06-01",
       "url": "https://github.com/naivetoad/MACS-30123.git"
     },
     {
-      "name": "An Agent-Based Model of Urban Gentrification",
-      "summary": "Designed an agent-based model (Mesa) to simulate urban gentrification dynamics, examining how citizens and immigrants with varying socioeconomic status interact and relocate within a city.",
-      "startDate": "2024-03-01",
-      "endDate": "2024-06-01",
-      "url": "https://github.com/naivetoad/MACS-40550.git"
-    },
-    {
       "name": "Funding and Academic Output in Behavioral and Cognitive Sciences",
       "summary": ["Collected and processed 4,959 funding records from U.S. NSF Division of Behavioral and Cognitive Sciences.",
                   "Scraped metadata of 207,370 scholarly articles authored by 3,230 identified researchers from Google Scholar",
-                  "Applied k-means clustering and TF-IDF vectorization (scikit-learn) to examine the relationship between seven identified fields and funding amounts.",
-                  "Utilized a Structural Topic Model (R) to analyze temporal trends across 12 identified topics.",
-                  "Performed document embeddings using SciBERT (Hugging Face) to assess the impact of funding on research diversity."],
+                  "Applied k-means clustering and TF-IDF vectorization to examine the relationship between 7 identified fields and funding amounts.",
+                  "Utilized a Structural Topic Model to analyze temporal trends across 12 identified topics.",
+                  "Performed document embeddings using SciBERT to assess the impact of funding on research diversity."],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
       "url": "https://github.com/naivetoad/SOCI-40133.git"
@@ -75,25 +60,11 @@
     {
       "name": "Multiclass Classification of Video Games",
       "summary": ["Collected and processed metadata of 75,776 video games from the Steam Games Dataset.",
-                  "Trained a Random Forest Classifier (scikit-learn) to classify games based on textual descriptions.",
-                  "Trained a Convolutional Neural Network (TensorFlow) to classify games based on cover art."],
+                  "Trained a Random Forest Classifier to classify games based on textual descriptions.",
+                  "Trained a Convolutional Neural Network to classify games based on cover art."],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
       "url": "https://github.com/naivetoad/MACS-30100.git"
-    },
-    {
-      "name": "Lineup Procedure and Confidence in Eyewitness Identification",
-      "summary": ["Collected and processed responses from 78 participants in a between-subjects factorial design experiment (Qualtrics).",
-                  "Conducted an ANOVA test (Jamovi) to analyze the effects of lineup procedure and confidence on eyewitness identification accuracy."],
-      "startDate": "2022-06-01",
-      "endDate": "2022-07-01"
-    },
-    {
-      "name": "Moral Judgment of Maternal Occupation and Responsibility",
-      "summary": ["Collected and processed responses from 285 participants in an observational study (Qualtrics)",
-                  "Conducted an ANOVA test (Jamovi) to analyze the relationship between maternal occupation and moral judgments of mothers leaving their children unsupervised."],
-      "startDate": "2020-09-01",
-      "endDate": "2020-12-01"
     }
   ],
   "skills": [
@@ -111,7 +82,6 @@
       "keywords": [
         "Python", 
         "SQL",
-        "JavaScript",
         "R"
       ]
     },
@@ -123,8 +93,7 @@
         "TensorFlow",
         "PyTorch",
         "spaCy",
-        "scikit-learn",
-        "Gensim"
+        "scikit-learn"
       ]
     },
     {
@@ -133,9 +102,9 @@
       "keywords": [
         "Pandas", 
         "NumPy", 
+        "Excel",
         "SciPy",
-        "dplyr",
-        "Jamovi"
+        "dplyr"
       ]
     },
     {
@@ -145,33 +114,7 @@
         "Plotly", 
         "ggplot2", 
         "Tableau", 
-        "Matplotlib",
-        "Mesa"
-      ]
-    },
-    {
-      "name": "High-Performance Computing",
-      "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Amazon Web Services",
-        "PySpark"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "icon": "fa-solid fa-globe",
-      "keywords": [
-        "Shiny",
-        "Flask",
-        "React"
-      ]
-    },
-    {
-      "name": "Survey",
-      "icon": "fa-solid fa-clipboard-list",
-      "keywords": [
-        "Qualtrics",
-        "Google Survey"
+        "Matplotlib"
       ]
     }
   ]
